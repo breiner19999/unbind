@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.error.model.Alumno;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("api")
 public class AlumnoController {
 
 	@GetMapping("/alumnos")
