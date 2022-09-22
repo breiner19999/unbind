@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.error.MessageErrorsApplication
+web: java -Dserver.port=$PORT -jar target/unbind-0.0.1-SNAPSHOT.jar
