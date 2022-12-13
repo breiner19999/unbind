@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/unbind.jar
+web: java -jar target/unbind.jar -Dserver.port=$PORT
